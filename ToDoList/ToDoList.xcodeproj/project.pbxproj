@@ -25,6 +25,11 @@
 		0F58BA802BD1A8CC00DC9D0B /* CoreDataManager+CoreDataTaskManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F58BA7F2BD1A8CC00DC9D0B /* CoreDataManager+CoreDataTaskManagerProtocol.swift */; };
 		0F58BA822BD2E9C600DC9D0B /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F58BA812BD2E9C600DC9D0B /* ToDoListViewModel.swift */; };
 		0F8975D42BDD8405001ABADA /* ToDoListTableViewController + Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8975D32BDD8405001ABADA /* ToDoListTableViewController + Extentions.swift */; };
+		0F8CF8632BE15EB30032C8A9 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CF8622BE15EB30032C8A9 /* launchScreen.png */; };
+		0F8CF8652BE15EBB0032C8A9 /* toDoList.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CF8642BE15EBB0032C8A9 /* toDoList.png */; };
+		0F8CF8672BE15EBF0032C8A9 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CF8662BE15EBF0032C8A9 /* delete.png */; };
+		0F8CF8692BE15EC40032C8A9 /* addNewTask.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CF8682BE15EC40032C8A9 /* addNewTask.png */; };
+		0F8CF86B2BE161720032C8A9 /* Draganddrop.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CF86A2BE161720032C8A9 /* Draganddrop.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,11 @@
 		0F58BA7F2BD1A8CC00DC9D0B /* CoreDataManager+CoreDataTaskManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataManager+CoreDataTaskManagerProtocol.swift"; sourceTree = "<group>"; };
 		0F58BA812BD2E9C600DC9D0B /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
 		0F8975D32BDD8405001ABADA /* ToDoListTableViewController + Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListTableViewController + Extentions.swift"; sourceTree = "<group>"; };
+		0F8CF8622BE15EB30032C8A9 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
+		0F8CF8642BE15EBB0032C8A9 /* toDoList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toDoList.png; sourceTree = "<group>"; };
+		0F8CF8662BE15EBF0032C8A9 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		0F8CF8682BE15EC40032C8A9 /* addNewTask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addNewTask.png; sourceTree = "<group>"; };
+		0F8CF86A2BE161720032C8A9 /* Draganddrop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Draganddrop.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		0F162E702BE1499A00126F99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F8CF8612BE15E810032C8A9 /* Screenshots */,
 				0F58BA472BCB012D00DC9D0B /* LaunchScreen.storyboard */,
 				0F58BA452BCB012D00DC9D0B /* Assets.xcassets */,
 				0F58BA4A2BCB012D00DC9D0B /* Info.plist */,
@@ -266,6 +277,18 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		0F8CF8612BE15E810032C8A9 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0F8CF8642BE15EBB0032C8A9 /* toDoList.png */,
+				0F8CF8662BE15EBF0032C8A9 /* delete.png */,
+				0F8CF8622BE15EB30032C8A9 /* launchScreen.png */,
+				0F8CF8682BE15EC40032C8A9 /* addNewTask.png */,
+				0F8CF86A2BE161720032C8A9 /* Draganddrop.gif */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,6 +401,11 @@
 				0F58BA462BCB012D00DC9D0B /* Assets.xcassets in Resources */,
 				0F58BA412BCB012A00DC9D0B /* ToDoListTableViewController.storyboard in Resources */,
 				0F58BA782BCB44B700DC9D0B /* ToDoListTableViewCell.xib in Resources */,
+				0F8CF8652BE15EBB0032C8A9 /* toDoList.png in Resources */,
+				0F8CF8692BE15EC40032C8A9 /* addNewTask.png in Resources */,
+				0F8CF86B2BE161720032C8A9 /* Draganddrop.gif in Resources */,
+				0F8CF8672BE15EBF0032C8A9 /* delete.png in Resources */,
+				0F8CF8632BE15EB30032C8A9 /* launchScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
