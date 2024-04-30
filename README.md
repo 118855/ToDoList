@@ -26,21 +26,19 @@ Main features:
   <tr>
     <td>
       <p>Launch Screen</p>
-      <img src="ToDoList/Source/Resources/Screenshots/launchScreen.png" alt="Launch screen" title="Launch screen" width="200px"/>
+      <img src="ToDoList/ToDoList/Source/Resources/Screenshots/launchScreen.png" alt="Launch screen" title="Launch screen" width="200px"/>
     </td>
     <td>
       <p>Add new task</p>
-      <img src="ToDoList/Source/Resources/Screenshots/addNewTask.png" alt="Add new task" title="Add new task" width="200px"/>
+      <img src="ToDoList/ToDoList/Source/Resources/Screenshots/addNewTask.png" alt="Add new task" title="Add new task" width="200px"/>
     </td>
     <td>
       <p>To do list</p>
-      <img src="ToDoList/Source/Resources/Screenshots/toDoList.png" alt="To do list screen" title="To do list" width="200px"/>
+      <img src="ToDoList/ToDoList/Source/Resources/Screenshots/toDoList.png" alt="To do list screen" title="To do list" width="200px"/>
     </td>
-  </tr>
-  <tr>
     <td>
       <p>Drag and Drop</p>
-      <img src="ToDoList/Source/Resources/Screenshot/Draganddrop.gif" alt="Drag and Drop" title="Drag and Drop" width="200px"/>
+      <img src="ToDoList/ToDoList/Source/Resources/Screenshots/Draganddrop.gif" alt="Drag and Drop" title="Drag and Drop" width="200px"/>
     </td>
   </tr>
 </table>
